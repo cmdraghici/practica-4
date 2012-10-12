@@ -1,0 +1,8 @@
+---CALCULO DEL READIO DE UNA CIRCUNFERENCIA CON EL PERIMETRO---
+
+Autor: Cezar Mihai Draghici
+
+
+1) El programa se ejecuta con un argumento siendo este el perimetro de una circunferencia y te devuelve el radio de dicha circunferencia
+2) Para hacer pruebas del programa con la unidad de testeo simplemente usar el comando rake en la consola y listo.
+	-La unidad de testeo hace puebas del programa en tiempo de ejecucion y comprobando los resultados.
