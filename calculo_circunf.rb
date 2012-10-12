@@ -4,15 +4,20 @@ class Circunf
 	
 	def initialize(numero)
 		
-		@perimetro = numero
-		@perimetro = @perimetro.to_f
+		@perimetro = numero.to_f
+		self.calcular
 		
 	end
 	
 	def calcular
 	
 		@radio = ((@perimetro) / (2 * $PI))
-		puts @radio
+	
+	end
+	
+	def valor_perimetro
+	
+		@radio
 	
 	end
 
@@ -21,4 +26,4 @@ end
 x = ARGV.shift
 
 calc = Circunf.new(x)
-calc.calcular
+puts calc.valor_perimetro
